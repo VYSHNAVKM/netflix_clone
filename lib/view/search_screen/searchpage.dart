@@ -14,7 +14,7 @@ class SearchPage extends StatefulWidget {
 class _SearchPageState extends State<SearchPage> {
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return ListView(
       children: [
         Container(
           height: 60,
@@ -54,6 +54,9 @@ class _SearchPageState extends State<SearchPage> {
         ),
         Expanded(
           child: ListView.builder(
+              shrinkWrap: true,
+              physics: NeverScrollableScrollPhysics(),
+              primary: true,
               itemCount: ImageConstant.movieavatar.length,
               scrollDirection: Axis.vertical,
               itemBuilder: (context, index) {

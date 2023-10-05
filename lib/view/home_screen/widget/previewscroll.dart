@@ -43,22 +43,7 @@ class _PreviewScrollState extends State<PreviewScroll> {
                   ),
                 );
               }),
-        )
-        // Expanded(
-        //   child: ListView.builder(
-        //       itemCount: ImageConstant.movieavatar.length,
-        //       scrollDirection: Axis.horizontal,
-        //       itemBuilder: (context, index) {
-        //         return Padding(
-        //           padding: const EdgeInsets.all(8.0),
-        //           child: CircleAvatar(
-        //             backgroundImage:
-        //                 AssetImage(ImageConstant.movieavatar[index]),
-        //             radius: 50,
-        //           ),
-        //         );
-        //       }),
-        // ),
+        ),
       ],
     );
   }

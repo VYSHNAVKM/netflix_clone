@@ -15,7 +15,7 @@ class CommingSoonPage extends StatefulWidget {
 class _CommingSoonPageState extends State<CommingSoonPage> {
   @override
   Widget build(BuildContext context) {
-    return Column(
+    return ListView(
       children: [
         Padding(
           padding: const EdgeInsets.all(10),
@@ -41,6 +41,9 @@ class _CommingSoonPageState extends State<CommingSoonPage> {
         ),
         Expanded(
           child: ListView.builder(
+            shrinkWrap: true,
+            physics: NeverScrollableScrollPhysics(),
+            primary: true,
             itemCount: Names.topSearch.length,
             itemBuilder: (context, index) => CommingSoonContainer(
               images: ImageConstant.movieavatar[index],

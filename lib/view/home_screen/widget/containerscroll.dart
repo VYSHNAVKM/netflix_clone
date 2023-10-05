@@ -19,7 +19,7 @@ class _ContainerScrollState extends State<ContainerScroll> {
             Padding(
               padding: const EdgeInsets.only(left: 12, top: 10),
               child: Text(
-                'Continue to watch Movie',
+                'Movie',
                 style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
