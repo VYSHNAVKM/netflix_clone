@@ -88,16 +88,31 @@ flutter:
     - assets\png\mylistimage.png
     
 
- #Moive Avatar Image
+  #Moive Images
  
-    - assets\moive_avatar_image\images (1).jpg
-    - assets\moive_avatar_image\images (2).jpg
-    - assets\moive_avatar_image\images (3).jpg
-    - assets\moive_avatar_image\images (4).jpg
-    - assets\moive_avatar_image\images (5).jpg
-    - assets\moive_avatar_image\images (6).jpg
-    - assets\moive_avatar_image\images (7).jpg
-    - assets\moive_avatar_image\images (8).jpg
+    - assets\movie_images\movie01.jpg
+    - assets\movie_images\movie02.jpg
+    - assets\movie_images\movie03.jpg
+    - assets\movie_images\movie04.jpg
+    - assets\movie_images\movie05.jpg
+    - assets\movie_images\movie06.jpg
+    - assets\movie_images\movie07.jpg
+    - assets\movie_images\movie08.jpg
+    - assets\movie_images\movie09.jpg
+    - assets\movie_images\movie10.jpg
+    - assets\movie_images\movie11.jpg
+    - assets\movie_images\movie12.jpg
+    - assets\movie_images\movie13.jpg
+    - assets\movie_images\movie14.jpg
+    - assets\movie_images\movie15.jpg
+    - assets\movie_images\movie16.jpg
+    - assets\movie_images\movie17.jpg
+    - assets\movie_images\movie18.jpg
+    - assets\movie_images\movie19.jpg
+    - assets\movie_images\movie20.jpg
+    
+
+   
     
   
 

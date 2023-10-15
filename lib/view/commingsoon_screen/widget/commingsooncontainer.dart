@@ -102,10 +102,7 @@ class CommingSoonContainer extends StatelessWidget {
                 SizedBox(
                   height: 20,
                 ),
-                ImageConstant.Commingsoon,
-                SizedBox(
-                  height: 10,
-                ),
+                Center(child: ImageConstant.Commingsoon),
               ],
             ),
           ),

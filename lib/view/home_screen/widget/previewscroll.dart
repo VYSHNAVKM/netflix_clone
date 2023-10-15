@@ -31,7 +31,7 @@ class _PreviewScrollState extends State<PreviewScroll> {
         Container(
           height: 160,
           child: ListView.builder(
-              itemCount: ImageConstant.movieavatar.length,
+              itemCount: ImageConstant.movieimages.length,
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
                 return Padding(
@@ -39,7 +39,7 @@ class _PreviewScrollState extends State<PreviewScroll> {
                   child: CircleAvatar(
                     radius: 50,
                     backgroundImage:
-                        AssetImage(ImageConstant.movieavatar[index]),
+                        AssetImage(ImageConstant.movieimages[index]),
                   ),
                 );
               }),

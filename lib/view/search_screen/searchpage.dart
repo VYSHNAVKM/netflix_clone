@@ -52,20 +52,18 @@ class _SearchPageState extends State<SearchPage> {
         SizedBox(
           height: 10,
         ),
-        Expanded(
-          child: ListView.builder(
-              shrinkWrap: true,
-              physics: NeverScrollableScrollPhysics(),
-              primary: true,
-              itemCount: ImageConstant.movieavatar.length,
-              scrollDirection: Axis.vertical,
-              itemBuilder: (context, index) {
-                return SearchContainer(
-                  names: Names.topSearch[index],
-                  images: ImageConstant.movieavatar[index],
-                );
-              }),
-        ),
+        ListView.builder(
+            shrinkWrap: true,
+            physics: NeverScrollableScrollPhysics(),
+            primary: true,
+            itemCount: ImageConstant.movieimages.length,
+            scrollDirection: Axis.vertical,
+            itemBuilder: (context, index) {
+              return SearchContainer(
+                names: Names.movienames[index],
+                images: ImageConstant.movieimages[index],
+              );
+            }),
       ],
     );
   }

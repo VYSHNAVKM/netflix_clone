@@ -9,47 +9,51 @@ class SearchContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.only(top: 5),
-      child: Container(
-        color: ColorConstant.darksecondcolor,
-        child: Row(
-          children: [
-            Container(
-              height: 76,
-              width: 130,
-              decoration: BoxDecoration(
-                  image: DecorationImage(
-                      fit: BoxFit.cover, image: AssetImage(images))),
-            ),
-            SizedBox(
-              width: 10,
-            ),
-            Container(
-              width: 250,
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Text(
-                    names,
-                    style: TextStyle(
-                        color: ColorConstant.textcolor,
-                        fontSize: 18,
-                        fontWeight: FontWeight.bold),
+    return Column(
+      children: [
+        Padding(
+          padding: const EdgeInsets.only(top: 5),
+          child: Container(
+            color: ColorConstant.darksecondcolor,
+            child: Row(
+              children: [
+                Container(
+                  height: 76,
+                  width: 130,
+                  decoration: BoxDecoration(
+                      image: DecorationImage(
+                          fit: BoxFit.cover, image: AssetImage(images))),
+                ),
+                SizedBox(
+                  width: 10,
+                ),
+                Container(
+                  width: 250,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Text(
+                        names,
+                        style: TextStyle(
+                            color: ColorConstant.textcolor,
+                            fontSize: 18,
+                            fontWeight: FontWeight.bold),
+                      ),
+                      IconButton(
+                          onPressed: () {},
+                          icon: Icon(
+                            Icons.play_circle,
+                            color: ColorConstant.textcolor,
+                            size: 30,
+                          ))
+                    ],
                   ),
-                  IconButton(
-                      onPressed: () {},
-                      icon: Icon(
-                        Icons.play_circle,
-                        color: ColorConstant.textcolor,
-                        size: 30,
-                      ))
-                ],
-              ),
-            )
-          ],
+                )
+              ],
+            ),
+          ),
         ),
-      ),
+      ],
     );
   }
 }

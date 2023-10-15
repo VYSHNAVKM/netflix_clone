@@ -1,11 +1,23 @@
 class Names {
   static List<String> names = [];
 
-  static List<String> topSearch = [
+  static List<String> movienames = [
     "Avatar",
     "jhon wick",
     "Joker",
     "Supergirl",
+    "deadpol",
+    "Hidden Strike",
+    "Batman",
+    "Spiderman",
+    "Avatar",
+    "jhon wick",
+    "Joker",
+    "Supergirl",
+    "deadpol",
+    "Hidden Strike",
+    "Batman",
+    "Spiderman",
     "deadpol",
     "Hidden Strike",
     "Batman",

@@ -30,7 +30,7 @@ class _ContinueWatchingState extends State<ContinueWatching> {
                         decoration: BoxDecoration(
                           image: DecorationImage(
                               image:
-                                  AssetImage(ImageConstant.movieavatar[index]),
+                                  AssetImage(ImageConstant.movieimages[index]),
                               fit: BoxFit.cover),
                         ),
                       ),
@@ -73,7 +73,7 @@ class _ContinueWatchingState extends State<ContinueWatching> {
               width: 10,
             );
           },
-          itemCount: ImageConstant.movieavatar.length),
+          itemCount: ImageConstant.movieimages.length),
     );
   }
 }

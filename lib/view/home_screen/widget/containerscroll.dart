@@ -34,7 +34,7 @@ class _ContainerScrollState extends State<ContainerScroll> {
         Container(
           height: 200,
           child: ListView.builder(
-              itemCount: ImageConstant.movieavatar.length,
+              itemCount: ImageConstant.movieimages.length,
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
                 return Padding(
@@ -44,7 +44,7 @@ class _ContainerScrollState extends State<ContainerScroll> {
                         image: DecorationImage(
                             fit: BoxFit.cover,
                             image:
-                                AssetImage(ImageConstant.movieavatar[index]))),
+                                AssetImage(ImageConstant.movieimages[index]))),
                     height: 150,
                     width: 110,
                   ),

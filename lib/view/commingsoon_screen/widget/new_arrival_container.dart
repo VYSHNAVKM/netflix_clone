@@ -12,7 +12,7 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 130,
+      height: 155,
       width: double.infinity,
       color: ColorConstant.darksecondcolor,
       child: Padding(
@@ -24,11 +24,10 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
                 Container(
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage(
-                              'assets/moive_avatar_image/images (1).jpg'),
+                          image: AssetImage('assets/movie_images/movie01.jpg'),
                           fit: BoxFit.cover)),
-                  height: 55,
-                  width: 100,
+                  height: 70,
+                  width: 150,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 30),
@@ -37,19 +36,20 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
                       Text(
                         'New Arrival',
                         style: TextStyle(
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold,
-                            color: ColorConstant.textcolor),
+                            fontSize: 20, color: ColorConstant.textcolor),
                       ),
                       Text(
-                        'Avatar',
+                        'Venom',
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: ColorConstant.textcolor,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        'Nov 31',
                         style: TextStyle(
                             fontSize: 15, color: ColorConstant.textcolor),
-                      ),
-                      Text(
-                        'Nov 16',
-                        style: TextStyle(
-                            fontSize: 10, color: ColorConstant.textcolor),
                       ),
                     ],
                   ),
@@ -64,11 +64,10 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
                 Container(
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage(
-                              'assets/moive_avatar_image/images (2).jpg'),
+                          image: AssetImage('assets/movie_images/movie02.jpg'),
                           fit: BoxFit.cover)),
-                  height: 55,
-                  width: 100,
+                  height: 70,
+                  width: 150,
                 ),
                 Padding(
                   padding: const EdgeInsets.only(left: 30),
@@ -77,19 +76,20 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
                       Text(
                         'New Arrival',
                         style: TextStyle(
-                            fontSize: 15,
-                            fontWeight: FontWeight.bold,
-                            color: ColorConstant.textcolor),
+                            fontSize: 20, color: ColorConstant.textcolor),
                       ),
                       Text(
-                        'Avatar',
+                        '',
+                        style: TextStyle(
+                          fontSize: 20,
+                          color: ColorConstant.textcolor,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                      Text(
+                        'Jun 16',
                         style: TextStyle(
                             fontSize: 15, color: ColorConstant.textcolor),
-                      ),
-                      Text(
-                        'Nov 16',
-                        style: TextStyle(
-                            fontSize: 10, color: ColorConstant.textcolor),
                       ),
                     ],
                   ),

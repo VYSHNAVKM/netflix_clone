@@ -39,21 +39,17 @@ class _CommingSoonPageState extends State<CommingSoonPage> {
         SizedBox(
           height: 20,
         ),
-        Expanded(
-          child: ListView.builder(
-            shrinkWrap: true,
-            physics: NeverScrollableScrollPhysics(),
-            primary: true,
-            itemCount: Names.topSearch.length,
-            itemBuilder: (context, index) => CommingSoonContainer(
-              images: ImageConstant.movieavatar[index],
-              names: Names.topSearch[index],
-            ),
+        ListView.builder(
+          shrinkWrap: true,
+          physics: NeverScrollableScrollPhysics(),
+          primary: true,
+          itemCount: 20,
+          itemBuilder: (context, index) => CommingSoonContainer(
+            images: ImageConstant.movieimages[index],
+            names: Names.movienames[index],
           ),
         ),
       ],
     );
-    //   ],
-    // );
   }
 }
