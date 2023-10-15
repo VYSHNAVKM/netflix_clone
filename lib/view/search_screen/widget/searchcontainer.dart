@@ -18,7 +18,7 @@ class SearchContainer extends StatelessWidget {
             child: Row(
               children: [
                 Container(
-                  height: 76,
+                  height: 90,
                   width: 130,
                   decoration: BoxDecoration(
                       image: DecorationImage(
@@ -32,12 +32,15 @@ class SearchContainer extends StatelessWidget {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text(
-                        names,
-                        style: TextStyle(
-                            color: ColorConstant.textcolor,
-                            fontSize: 18,
-                            fontWeight: FontWeight.bold),
+                      SizedBox(
+                        width: 200,
+                        child: Text(
+                          names,
+                          style: TextStyle(
+                              color: ColorConstant.textcolor,
+                              fontSize: 20,
+                              fontWeight: FontWeight.bold),
+                        ),
                       ),
                       IconButton(
                           onPressed: () {},

@@ -65,8 +65,41 @@ class _HomePageState extends State<HomePage> {
               width: 424,
               decoration: BoxDecoration(
                   image: DecorationImage(
-                      image: AssetImage('assets/png/bgimage1.png'))),
-            )
+                      image: AssetImage('assets/movie_images/movie01.jpg'),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              height: 415,
+              width: 424,
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage('assets/movie_images/movie02.jpg'),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              height: 415,
+              width: 424,
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage('assets/movie_images/movie03.jpg'),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              height: 415,
+              width: 424,
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage('assets/movie_images/movie04.jpg'),
+                      fit: BoxFit.cover)),
+            ),
+            Container(
+              height: 415,
+              width: 424,
+              decoration: BoxDecoration(
+                  image: DecorationImage(
+                      image: AssetImage('assets/movie_images/movie05.jpg'),
+                      fit: BoxFit.cover)),
+            ),
           ], options: CarouselOptions(autoPlay: true, height: 300)),
         ),
         SliverList(
