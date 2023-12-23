@@ -77,7 +77,7 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
                             fontSize: 20, color: ColorConstant.textcolor),
                       ),
                       Text(
-                        '',
+                        'Justice League',
                         style: TextStyle(
                           fontSize: 20,
                           color: ColorConstant.textcolor,
