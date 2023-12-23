@@ -2,15 +2,12 @@
 
 A new Flutter project.
 
-## Getting Started
+## Screenshots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_1703323904](https://github.com/VYSHNAVKM/netflix_clone/assets/129362435/25b04d99-cdc5-44bf-ba8f-c551782f1420)
+![Screenshot_1703323917](https://github.com/VYSHNAVKM/netflix_clone/assets/129362435/b224b7cb-6c29-4cfa-8c26-f9fec2d52fee)
+![Screenshot_1703323927](https://github.com/VYSHNAVKM/netflix_clone/assets/129362435/c70afe5e-2d91-4d81-9c69-3697b693ac7e)
+![Screenshot_1703323942](https://github.com/VYSHNAVKM/netflix_clone/assets/129362435/56a85aa9-21f7-4b68-852c-a27f87b30b77)
+![Screenshot_1703324320](https://github.com/VYSHNAVKM/netflix_clone/assets/129362435/8ed7654d-6ba7-4158-a7d9-f7ba2a573fe8)
+![Screenshot_1703323954](https://github.com/VYSHNAVKM/netflix_clone/assets/129362435/9523554a-eb11-4faa-af36-a7a4435f253b)
+![Screenshot_1703323965](https://github.com/VYSHNAVKM/netflix_clone/assets/129362435/3ca1d4ac-e86f-4872-95c8-f015eeaef854)
