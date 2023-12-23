@@ -16,7 +16,6 @@ class CommingSoonContainer extends StatelessWidget {
     return Column(
       children: [
         Container(
-          height: 500,
           width: double.infinity,
           child: Padding(
             padding: const EdgeInsets.all(8.0),

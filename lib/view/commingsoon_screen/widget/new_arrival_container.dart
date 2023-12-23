@@ -12,8 +12,6 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 155,
-      width: double.infinity,
       color: ColorConstant.darksecondcolor,
       child: Padding(
         padding: const EdgeInsets.all(5),

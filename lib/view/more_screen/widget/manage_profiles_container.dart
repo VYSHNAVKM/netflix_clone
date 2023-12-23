@@ -14,7 +14,6 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
     return Column(
       children: [
         Container(
-          height: 170,
           width: double.infinity,
           color: ColorConstant.darksecondcolor,
           child: Padding(
@@ -73,54 +72,59 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
           color: ColorConstant.darksecondcolor,
           height: 80,
           width: double.infinity,
-          child: Row(
-            children: [
-              Image(
-                  image: AssetImage('assets/socialmedia/facebook.png'),
-                  width: 100),
-              SizedBox(
-                width: 20,
-              ),
-              Image(image: AssetImage('assets/socialmedia/Line 2.png')),
-              SizedBox(
-                width: 20,
-              ),
-              Image(image: AssetImage('assets/socialmedia/gmail.png')),
-              SizedBox(
-                width: 20,
-              ),
-              Image(image: AssetImage('assets/socialmedia/Line 2.png')),
-              SizedBox(
-                width: 20,
-              ),
-              Image(image: AssetImage('assets/socialmedia/whatsapp.png')),
-              SizedBox(
-                width: 20,
-              ),
-              Image(image: AssetImage('assets/socialmedia/Line 2.png')),
-              SizedBox(
-                width: 20,
-              ),
-              InkWell(
-                onTap: () {},
-                child: Column(
-                  children: [
-                    Icon(
-                      Icons.more_horiz,
-                      color: Colors.white,
-                      size: 50,
-                    ),
-                    Text(
-                      'More',
-                      style: TextStyle(
-                          color: Colors.white,
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold),
-                    ),
-                  ],
+          child: Center(
+            child: Row(
+              children: [
+                SizedBox(
+                  width: 50,
                 ),
-              )
-            ],
+                Image(
+                  image: AssetImage('assets/socialmedia/facebook.png'),
+                ),
+                SizedBox(
+                  width: 20,
+                ),
+                Image(image: AssetImage('assets/socialmedia/Line 2.png')),
+                SizedBox(
+                  width: 20,
+                ),
+                Image(image: AssetImage('assets/socialmedia/gmail.png')),
+                SizedBox(
+                  width: 20,
+                ),
+                Image(image: AssetImage('assets/socialmedia/Line 2.png')),
+                SizedBox(
+                  width: 20,
+                ),
+                Image(image: AssetImage('assets/socialmedia/whatsapp.png')),
+                SizedBox(
+                  width: 20,
+                ),
+                Image(image: AssetImage('assets/socialmedia/Line 2.png')),
+                SizedBox(
+                  width: 20,
+                ),
+                InkWell(
+                  onTap: () {},
+                  child: Column(
+                    children: [
+                      Icon(
+                        Icons.more_horiz,
+                        color: Colors.white,
+                        size: 40,
+                      ),
+                      Text(
+                        'More',
+                        style: TextStyle(
+                            color: Colors.white,
+                            fontSize: 17,
+                            fontWeight: FontWeight.bold),
+                      ),
+                    ],
+                  ),
+                )
+              ],
+            ),
           ),
         ),
         Padding(

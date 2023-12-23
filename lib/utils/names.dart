@@ -4,14 +4,14 @@ class Names {
   static List<String> movienames = [
     "Venom",
     "Justice League",
-    "Joker",
+    "Widows (2018)",
     "Aladdin",
     "Bumblebee",
     "Cars 3",
     "Wonder Woman 3",
     "Beauty and the Beast",
     "Deadpool 2",
-    "",
+    "Pennywise",
     "Power Rangers",
     "Ant-Man",
     "Dora and the Lost City of Gold",
@@ -21,7 +21,7 @@ class Names {
     "The SpongeBob Movie: Sponge on the Run",
     "Cars 2",
     "Supergirl",
-    "",
+    "Joker",
   ];
 
   static List<String> profilenames = [
