@@ -14,7 +14,7 @@ class SearchContainer extends StatelessWidget {
         Padding(
           padding: const EdgeInsets.only(top: 5),
           child: Container(
-            color: ColorConstant.darksecondcolor,
+            color: darksecondcolor,
             child: Row(
               children: [
                 Container(
@@ -37,7 +37,7 @@ class SearchContainer extends StatelessWidget {
                         child: Text(
                           names,
                           style: TextStyle(
-                              color: ColorConstant.textcolor,
+                              color: textcolor,
                               fontSize: 20,
                               fontWeight: FontWeight.bold),
                         ),
@@ -46,7 +46,7 @@ class SearchContainer extends StatelessWidget {
                           onPressed: () {},
                           icon: Icon(
                             Icons.play_circle,
-                            color: ColorConstant.textcolor,
+                            color: textcolor,
                             size: 30,
                           ))
                     ],

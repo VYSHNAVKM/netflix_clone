@@ -2,24 +2,24 @@ import 'package:flutter/material.dart';
 import 'package:netflix_clone/utils/colorconstant.dart';
 import 'package:netflix_clone/utils/imageconstant.dart';
 
-import 'package:netflix_clone/view/username_screen/username.dart';
+import 'package:netflix_clone/view/username_screen/username_screen.dart';
 
-class SplashScreenPage extends StatelessWidget {
-  const SplashScreenPage({super.key});
+class SplashScreen extends StatelessWidget {
+  const SplashScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     Future.delayed(const Duration(seconds: 3), () {
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const UserName()),
+        MaterialPageRoute(builder: (context) => const UserNameScreen()),
       );
     });
 
     return Scaffold(
-      backgroundColor: ColorConstant.bgcolr,
+      backgroundColor: bgcolr,
       body: Center(
-        child: ImageConstant.logo,
+        child: logo,
       ),
     );
   }

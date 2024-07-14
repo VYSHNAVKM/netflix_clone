@@ -23,7 +23,7 @@ class _PreviewScrollState extends State<PreviewScroll> {
                 style: TextStyle(
                     fontSize: 27,
                     fontWeight: FontWeight.bold,
-                    color: ColorConstant.textcolor),
+                    color: textcolor),
               ),
             ),
           ],
@@ -31,15 +31,14 @@ class _PreviewScrollState extends State<PreviewScroll> {
         Container(
           height: 160,
           child: ListView.builder(
-              itemCount: ImageConstant.movieimages.length,
+              itemCount: movieimages.length,
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
                 return Padding(
                   padding: const EdgeInsets.symmetric(horizontal: 5),
                   child: CircleAvatar(
                     radius: 50,
-                    backgroundImage:
-                        AssetImage(ImageConstant.movieimages[index]),
+                    backgroundImage: AssetImage(movieimages[index]),
                   ),
                 );
               }),

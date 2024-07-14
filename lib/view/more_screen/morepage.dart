@@ -32,13 +32,11 @@ class _MorePageState extends State<MorePage> {
                       Container(
                           height: 100,
                           width: 80,
-                          child:
-                              Image.asset(ImageConstant.profileimages[index])),
+                          child: Image.asset(profileimages[index])),
                       Text(
                         Names.profilenames[index],
                         style: TextStyle(
-                            color: ColorConstant.textcolor,
-                            fontWeight: FontWeight.bold),
+                            color: textcolor, fontWeight: FontWeight.bold),
                       ),
                     ],
                   ),
@@ -52,14 +50,14 @@ class _MorePageState extends State<MorePage> {
           children: [
             Icon(
               Icons.edit,
-              color: ColorConstant.textcolor,
+              color: textcolor,
             ),
             SizedBox(
               width: 10,
             ),
             Text(
               'Manage Profiles',
-              style: TextStyle(fontSize: 20, color: ColorConstant.textcolor),
+              style: TextStyle(fontSize: 20, color: textcolor),
             ),
           ],
         ),

@@ -33,10 +33,10 @@ class _MyHomeState extends State<MyHome> {
   Widget build(BuildContext context) {
     return SafeArea(
       child: Scaffold(
-          backgroundColor: ColorConstant.bgcolr,
+          backgroundColor: bgcolr,
           bottomNavigationBar: BottomNavigationBar(
-              backgroundColor: ColorConstant.bgcolr,
-              selectedItemColor: ColorConstant.textcolor,
+              backgroundColor: bgcolr,
+              selectedItemColor: textcolor,
               unselectedItemColor: Colors.grey.shade700,
               currentIndex: _currentindex,
               onTap: onItemTap,

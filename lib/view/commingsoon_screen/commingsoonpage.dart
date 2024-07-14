@@ -21,7 +21,7 @@ class _CommingSoonPageState extends State<CommingSoonPage> {
           padding: const EdgeInsets.all(10),
           child: Row(
             children: [
-              ImageConstant.notification,
+              notification,
               SizedBox(
                 width: 10,
               ),
@@ -30,7 +30,7 @@ class _CommingSoonPageState extends State<CommingSoonPage> {
                 style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: ColorConstant.textcolor),
+                    color: textcolor),
               )
             ],
           ),
@@ -45,7 +45,7 @@ class _CommingSoonPageState extends State<CommingSoonPage> {
           primary: true,
           itemCount: 20,
           itemBuilder: (context, index) => CommingSoonContainer(
-            images: ImageConstant.movieimages[index],
+            images: movieimages[index],
             names: Names.movienames[index],
           ),
         ),

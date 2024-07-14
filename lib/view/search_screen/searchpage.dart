@@ -19,19 +19,19 @@ class _SearchPageState extends State<SearchPage> {
         Container(
           height: 60,
           width: double.infinity,
-          color: ColorConstant.darksecondcolor,
+          color: darksecondcolor,
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              Icon(Icons.search, color: ColorConstant.textcolor),
+              Icon(Icons.search, color: textcolor),
               Text(
                 'Search for a show, movie, genre, e.t.c',
                 style: TextStyle(
-                    color: ColorConstant.textcolor,
+                    color: textcolor,
                     fontSize: 17,
                     fontWeight: FontWeight.bold),
               ),
-              Icon(Icons.mic, color: ColorConstant.textcolor)
+              Icon(Icons.mic, color: textcolor)
             ],
           ),
         ),
@@ -43,9 +43,7 @@ class _SearchPageState extends State<SearchPage> {
             Text(
               'Top Searches',
               style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: ColorConstant.textcolor,
-                  fontSize: 30),
+                  fontWeight: FontWeight.bold, color: textcolor, fontSize: 30),
             )
           ],
         ),
@@ -56,12 +54,12 @@ class _SearchPageState extends State<SearchPage> {
             shrinkWrap: true,
             physics: NeverScrollableScrollPhysics(),
             primary: true,
-            itemCount: ImageConstant.movieimages.length,
+            itemCount: movieimages.length,
             scrollDirection: Axis.vertical,
             itemBuilder: (context, index) {
               return SearchContainer(
                 names: Names.movienames[index],
-                images: ImageConstant.movieimages[index],
+                images: movieimages[index],
               );
             }),
       ],

@@ -15,7 +15,7 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
       children: [
         Container(
           width: double.infinity,
-          color: ColorConstant.darksecondcolor,
+          color: darksecondcolor,
           child: Padding(
             padding: const EdgeInsets.all(20),
             child: Column(
@@ -24,7 +24,7 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
                   children: [
                     Icon(
                       Icons.message_rounded,
-                      color: ColorConstant.textcolor,
+                      color: textcolor,
                     ),
                     SizedBox(
                       width: 10,
@@ -32,7 +32,7 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
                     Text(
                       'Tell friends about Netflix.',
                       style: TextStyle(
-                          color: ColorConstant.textcolor,
+                          color: textcolor,
                           fontSize: 20,
                           fontWeight: FontWeight.bold),
                     ),
@@ -46,7 +46,7 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
                   child: Text(
                     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quam dui, vivamus bibendum ut. A morbi mi tortor ut felis non accumsan accumsan quis. Massa,',
                     style: TextStyle(
-                      color: ColorConstant.textcolor,
+                      color: textcolor,
                     ),
                   ),
                 ),
@@ -58,7 +58,7 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
                     child: Text(
                       'Terms & Conditions',
                       style: TextStyle(
-                        color: ColorConstant.textcolor,
+                        color: textcolor,
                       ),
                     ))
               ],
@@ -69,7 +69,7 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
           height: 50,
         ),
         Container(
-          color: ColorConstant.darksecondcolor,
+          color: darksecondcolor,
           height: 80,
           width: double.infinity,
           child: Center(
@@ -136,7 +136,7 @@ class _ManageProfileContainerState extends State<ManageProfileContainer> {
         ),
         Divider(
           thickness: 1,
-          color: ColorConstant.darksecondcolor,
+          color: darksecondcolor,
         ),
         SizedBox(
           height: 10,

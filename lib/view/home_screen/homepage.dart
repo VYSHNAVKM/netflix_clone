@@ -25,7 +25,7 @@ class _HomePageState extends State<HomePage> {
           title: Row(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             children: [
-              ImageConstant.Homenetflixicon,
+              Homenetflixicon,
               InkWell(
                 onTap: () {},
                 child: Text(
@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
-                      color: ColorConstant.textcolor),
+                      color: textcolor),
                 ),
               ),
               InkWell(
@@ -43,7 +43,7 @@ class _HomePageState extends State<HomePage> {
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
-                      color: ColorConstant.textcolor),
+                      color: textcolor),
                 ),
               ),
               InkWell(
@@ -53,7 +53,7 @@ class _HomePageState extends State<HomePage> {
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
-                      color: ColorConstant.textcolor),
+                      color: textcolor),
                 ),
               ),
             ],
@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                     style: TextStyle(
                         fontWeight: FontWeight.bold,
                         fontSize: 20,
-                        color: ColorConstant.textcolor),
+                        color: textcolor),
                   ),
                   SizedBox(
                     height: 20,
@@ -125,15 +125,14 @@ class _HomePageState extends State<HomePage> {
                         children: [
                           Icon(
                             Icons.add,
-                            color: ColorConstant.textcolor,
+                            color: textcolor,
                           ),
                           SizedBox(
                             height: 5,
                           ),
                           Text(
                             'My List',
-                            style: TextStyle(
-                                fontSize: 15, color: ColorConstant.textcolor),
+                            style: TextStyle(fontSize: 15, color: textcolor),
                           ),
                         ],
                       ),
@@ -145,21 +144,20 @@ class _HomePageState extends State<HomePage> {
                                 borderRadius: BorderRadius.circular(10)),
                             height: 45,
                             width: 100,
-                            child: ImageConstant.playbutton),
+                            child: playbutton),
                       ),
                       Column(
                         children: [
                           Icon(
                             Icons.add,
-                            color: ColorConstant.textcolor,
+                            color: textcolor,
                           ),
                           SizedBox(
                             height: 5,
                           ),
                           Text(
                             'My List',
-                            style: TextStyle(
-                                fontSize: 15, color: ColorConstant.textcolor),
+                            style: TextStyle(fontSize: 15, color: textcolor),
                           ),
                         ],
                       )
@@ -181,7 +179,7 @@ class _HomePageState extends State<HomePage> {
                       style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
-                          color: ColorConstant.textcolor),
+                          color: textcolor),
                     ),
                   ),
                   SizedBox(

@@ -25,9 +25,9 @@ class Names {
   ];
 
   static List<String> profilenames = [
-    "VYSHNAV",
-    "YADHUN",
-    "ABHAY",
+    "Person 1",
+    "Person 2",
+    "Person 3",
     "KIDS",
     "Add Profile",
   ];

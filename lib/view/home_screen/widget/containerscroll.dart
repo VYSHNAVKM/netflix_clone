@@ -23,7 +23,7 @@ class _ContainerScrollState extends State<ContainerScroll> {
                 style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
-                    color: ColorConstant.textcolor),
+                    color: textcolor),
               ),
             )
           ],
@@ -34,7 +34,7 @@ class _ContainerScrollState extends State<ContainerScroll> {
         Container(
           height: 200,
           child: ListView.builder(
-              itemCount: ImageConstant.movieimages.length,
+              itemCount: movieimages.length,
               scrollDirection: Axis.horizontal,
               itemBuilder: (context, index) {
                 return Padding(
@@ -43,8 +43,7 @@ class _ContainerScrollState extends State<ContainerScroll> {
                     decoration: BoxDecoration(
                         image: DecorationImage(
                             fit: BoxFit.cover,
-                            image:
-                                AssetImage(ImageConstant.movieimages[index]))),
+                            image: AssetImage(movieimages[index]))),
                     height: 150,
                     width: 110,
                   ),

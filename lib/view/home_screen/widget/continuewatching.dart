@@ -29,8 +29,7 @@ class _ContinueWatchingState extends State<ContinueWatching> {
                         height: 130,
                         decoration: BoxDecoration(
                           image: DecorationImage(
-                              image:
-                                  AssetImage(ImageConstant.movieimages[index]),
+                              image: AssetImage(movieimages[index]),
                               fit: BoxFit.cover),
                         ),
                       ),
@@ -49,14 +48,14 @@ class _ContinueWatchingState extends State<ContinueWatching> {
                               onPressed: () {},
                               icon: Icon(
                                 Icons.info_outline,
-                                color: ColorConstant.textcolor,
+                                color: textcolor,
                               ),
                             ),
                             IconButton(
                               onPressed: () {},
                               icon: Icon(
                                 Icons.more_vert,
-                                color: ColorConstant.textcolor,
+                                color: textcolor,
                               ),
                             ),
                           ],
@@ -73,7 +72,7 @@ class _ContinueWatchingState extends State<ContinueWatching> {
               width: 10,
             );
           },
-          itemCount: ImageConstant.movieimages.length),
+          itemCount: movieimages.length),
     );
   }
 }

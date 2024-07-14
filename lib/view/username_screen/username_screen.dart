@@ -4,18 +4,18 @@ import 'package:netflix_clone/utils/imageconstant.dart';
 import 'package:netflix_clone/utils/names.dart';
 import 'package:netflix_clone/view/home/bottom_navi.dart';
 
-class UserName extends StatefulWidget {
-  const UserName({super.key});
+class UserNameScreen extends StatefulWidget {
+  const UserNameScreen({super.key});
 
   @override
-  State<UserName> createState() => _UserNameState();
+  State<UserNameScreen> createState() => _UserNameScreenState();
 }
 
-class _UserNameState extends State<UserName> {
+class _UserNameScreenState extends State<UserNameScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorConstant.bgcolr,
+      backgroundColor: bgcolr,
       body: SafeArea(
         child: Column(
           children: [
@@ -27,7 +27,7 @@ class _UserNameState extends State<UserName> {
                 SizedBox(
                   width: 120,
                 ),
-                ImageConstant.logo,
+                logo,
                 SizedBox(
                   width: 80,
                 ),
@@ -68,16 +68,14 @@ class _UserNameState extends State<UserName> {
                                       builder: (context) => MyHome()),
                                 );
                               },
-                              child: Image.asset(
-                                  ImageConstant.profileimages[index])),
+                              child: Image.asset(profileimages[index])),
                           SizedBox(
                             height: 10,
                           ),
                           Text(
                             Names.profilenames[index],
                             style: TextStyle(
-                                color: ColorConstant.textcolor,
-                                fontWeight: FontWeight.bold),
+                                color: textcolor, fontWeight: FontWeight.bold),
                           )
                         ],
                       ),

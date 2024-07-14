@@ -39,12 +39,11 @@ class CommingSoonContainer extends StatelessWidget {
                       children: [
                         Icon(
                           Icons.notifications,
-                          color: ColorConstant.textcolor,
+                          color: textcolor,
                         ),
                         Text(
                           'Remind Me',
-                          style: TextStyle(
-                              fontSize: 15, color: ColorConstant.textcolor),
+                          style: TextStyle(fontSize: 15, color: textcolor),
                         )
                       ],
                     ),
@@ -55,12 +54,11 @@ class CommingSoonContainer extends StatelessWidget {
                       children: [
                         Icon(
                           Icons.share,
-                          color: ColorConstant.textcolor,
+                          color: textcolor,
                         ),
                         Text(
                           'Share',
-                          style: TextStyle(
-                              fontSize: 15, color: ColorConstant.textcolor),
+                          style: TextStyle(fontSize: 15, color: textcolor),
                         )
                       ],
                     )
@@ -72,7 +70,7 @@ class CommingSoonContainer extends StatelessWidget {
                 Text(
                   'Season 1 comming June 16',
                   style: TextStyle(
-                      color: ColorConstant.textcolor,
+                      color: textcolor,
                       fontSize: 20,
                       fontWeight: FontWeight.bold),
                 ),
@@ -83,7 +81,7 @@ class CommingSoonContainer extends StatelessWidget {
                   names,
                   style: TextStyle(
                       fontSize: 30,
-                      color: ColorConstant.textcolor,
+                      color: textcolor,
                       fontWeight: FontWeight.bold),
                 ),
                 SizedBox(
@@ -94,14 +92,14 @@ class CommingSoonContainer extends StatelessWidget {
                   child: Text(
                     'I was waiting for this day for the longest time. I was a kid back in 2009 when this movie released. So never got to watch it back then. But now when it rereleas',
                     style: TextStyle(
-                      color: ColorConstant.textcolor,
+                      color: textcolor,
                     ),
                   ),
                 ),
                 SizedBox(
                   height: 20,
                 ),
-                Center(child: ImageConstant.Commingsoon),
+                Center(child: Commingsoon),
               ],
             ),
           ),

@@ -20,7 +20,7 @@ class _DownloadPageState extends State<DownloadPage> {
             padding: const EdgeInsets.only(left: 30),
             child: Text(
               'Smart Downloads',
-              style: TextStyle(fontSize: 20, color: ColorConstant.textcolor),
+              style: TextStyle(fontSize: 20, color: textcolor),
             ),
           ),
           SizedBox(
@@ -29,9 +29,7 @@ class _DownloadPageState extends State<DownloadPage> {
           Text(
             'Introducing Downloads For You',
             style: TextStyle(
-                fontSize: 25,
-                fontWeight: FontWeight.bold,
-                color: ColorConstant.textcolor),
+                fontSize: 25, fontWeight: FontWeight.bold, color: textcolor),
           ),
           SizedBox(
             height: 20,
@@ -40,13 +38,13 @@ class _DownloadPageState extends State<DownloadPage> {
             height: 100,
             child: Text(
               'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit quam dui, vivamus bibendum ut. A morbi mi tortor ut felis non accumsan accumsan quis.',
-              style: TextStyle(color: ColorConstant.textcolor),
+              style: TextStyle(color: textcolor),
             ),
           ),
           Center(
             child: CircleAvatar(
               radius: 100,
-              backgroundColor: ColorConstant.darksecondcolor,
+              backgroundColor: darksecondcolor,
             ),
           ),
           SizedBox(
@@ -60,8 +58,7 @@ class _DownloadPageState extends State<DownloadPage> {
               child: Center(
                 child: Text(
                   'SETUP',
-                  style:
-                      TextStyle(fontSize: 20, color: ColorConstant.textcolor),
+                  style: TextStyle(fontSize: 20, color: textcolor),
                 ),
               ),
             ),
@@ -73,12 +70,11 @@ class _DownloadPageState extends State<DownloadPage> {
             child: Container(
               height: 33,
               width: 300,
-              color: ColorConstant.darksecondcolor,
+              color: darksecondcolor,
               child: Center(
                 child: Text(
                   'Find Something to Download',
-                  style:
-                      TextStyle(fontSize: 20, color: ColorConstant.textcolor),
+                  style: TextStyle(fontSize: 20, color: textcolor),
                 ),
               ),
             ),

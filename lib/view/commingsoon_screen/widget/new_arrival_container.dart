@@ -12,7 +12,7 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      color: ColorConstant.darksecondcolor,
+      color: darksecondcolor,
       child: Padding(
         padding: const EdgeInsets.all(5),
         child: Column(
@@ -33,21 +33,19 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
                     children: [
                       Text(
                         'New Arrival',
-                        style: TextStyle(
-                            fontSize: 20, color: ColorConstant.textcolor),
+                        style: TextStyle(fontSize: 20, color: textcolor),
                       ),
                       Text(
                         'Venom',
                         style: TextStyle(
                           fontSize: 20,
-                          color: ColorConstant.textcolor,
+                          color: textcolor,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       Text(
                         'Nov 31',
-                        style: TextStyle(
-                            fontSize: 15, color: ColorConstant.textcolor),
+                        style: TextStyle(fontSize: 15, color: textcolor),
                       ),
                     ],
                   ),
@@ -73,21 +71,19 @@ class _NewArrivalContainerState extends State<NewArrivalContainer> {
                     children: [
                       Text(
                         'New Arrival',
-                        style: TextStyle(
-                            fontSize: 20, color: ColorConstant.textcolor),
+                        style: TextStyle(fontSize: 20, color: textcolor),
                       ),
                       Text(
                         'Justice League',
                         style: TextStyle(
                           fontSize: 20,
-                          color: ColorConstant.textcolor,
+                          color: textcolor,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
                       Text(
                         'Jun 16',
-                        style: TextStyle(
-                            fontSize: 15, color: ColorConstant.textcolor),
+                        style: TextStyle(fontSize: 15, color: textcolor),
                       ),
                     ],
                   ),
